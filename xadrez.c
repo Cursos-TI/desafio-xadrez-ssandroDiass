@@ -30,6 +30,18 @@ int main() {
         casaRainha++;
     } while (casaRainha <= 8);
     
+    //Moviemtno do Cavalo em formato de L (2 casas para baixo e uma para direita)
+        printf("\nMovimento do Cavalo:\n");
+    for (int i = 1; i <= 2; i++) { // Loop para as duas casas para baixo
+        printf("Baixo\n");
+    }
+    int casaCavalo = 1;
+    while (casaCavalo <= 1) { // Loop para uma casa para a direita
+        printf("Direita\n");
+        casaCavalo++;
+    }
+
+    
     // Nível Aventureiro - Movi// Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
 
